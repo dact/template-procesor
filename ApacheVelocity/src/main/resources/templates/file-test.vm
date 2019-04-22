@@ -1,0 +1,17 @@
+#if( $nombreyapellido != "")
+<tr style="color: #004387;">
+<td width="290">Nombres y Apellidos</td>
+</tr>
+<tr>
+<td>$nombreyapellido</td>
+</tr>
+#end
+
+#if( $celular )
+<tr style="color: #004387;">
+<td width="290">celular</td>
+</tr>
+<tr>
+<td>$celular</td>
+</tr>
+#end
